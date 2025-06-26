@@ -137,7 +137,7 @@ index 576f9581..1b56f858 100644
  
  static void * ggml_backend_metal_buffer_get_base(ggml_backend_buffer_t buffer) {
 diff --git a/ggml/src/ggml-opencl/ggml-opencl.cpp b/ggml/src/ggml-opencl/ggml-opencl.cpp
-index 05a2f4e6..392cc18d 100644
+index 58694604..7a726002 100644
 --- a/ggml/src/ggml-opencl/ggml-opencl.cpp
 +++ b/ggml/src/ggml-opencl/ggml-opencl.cpp
 @@ -1940,6 +1940,7 @@ struct ggml_backend_opencl_buffer_context {
